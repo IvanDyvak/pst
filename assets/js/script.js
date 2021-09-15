@@ -155,7 +155,7 @@ var mobileBtn = $('.mobileBtn');
 
 $(mobileBtn).click(function(e) {
 		e.preventDefault();
-		nav.slideToggle();
+		nav.toggleClass("showFlex");
 		$('#mainNav li a').addClass('mobile');
 
 
