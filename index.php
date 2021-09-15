@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // make sure "0global_settings.php" file exists and require it
 if(!isset($_SERVER["DOCUMENT_ROOT"])){trigger_error("_SERVER[\"DOCUMENT_ROOT\"] not set");header("HTTP/1.1 500 Internal Server Error");exit(0);}
 $global_settings_php=$_SERVER["DOCUMENT_ROOT"]."/0global_settings.php";
@@ -20,7 +20,7 @@ if((($default_timezone=ini_get('date.timezone'))===FALSE)||(1>strlen($default_ti
     date_default_timezone_set($default_timezone);
 }
 $current_year=@date("Y");
-?>
+?> -->
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -35,14 +35,17 @@ $current_year=@date("Y");
 <!--[if IE 7]>
     <link rel="stylesheet" href="/assets/css/fontello-ie7.css"><![endif]-->
 
-    <link href="/assets/css/font.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/fontello.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/base.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/skeleton.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/magnific-popup.css" rel="stylesheet"  />
-    <link href="/assets/css/flexslider.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/jquery.cookieBar.css">
+    <link href="assets/css/font.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/fontello.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/base.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet"  />
+    <link href="assets/css/flexslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/jquery.cookieBar.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Carter+One&family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&family=Suez+One&family=Vidaloka&display=swap" rel="stylesheet">
 
 
 
@@ -84,31 +87,36 @@ $current_year=@date("Y");
 				
 				<!--Container-->
 			<div class="container clearfix">
-			<div class="one-third column">
-				<!--Logo-->
-				<div class="logo">
-                    <a href="/"><img src="assets/images/logo.png" alt="logo"></a>
-				</div>
-				<!--End logo-->
-			</div>
-			
-			
-				<div class="two-thirds column">
-						<!--Navigation-->
-							<nav id="mainNav" >
-								<a href="#" class="mobileBtn"><i class="icon-menu"></i></a>
+				<div class="header_wrap">
+					<div class="one-third column">
+						<!--Logo-->
+		<!-- 				<div class="logo">
+		                    <a href="/"><img src="assets/images/logo.png" alt="logo"></a>
+						</div> -->
+						<div class="logo"><a href="/">
+		                    <h1>PST</h1></a>
+						</div>
+						<!--End logo-->
+					</div>
+					
+					
+					<div class="two-thirds column">
+							<!--Navigation-->
+								<nav id="mainNav" >
+									<a href="#" class="mobileBtn"><i class="icon-menu"></i></a>
 
-							<ul>
-								<li><a href="#about">About us</a></li>
-								<li><a href="#services">Services</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<ul>
+									<li><a href="#about">Про нас</a></li>
+									<li><a href="#services">Послуги</a></li>
+									<li><a href="#portfolio">Продукти</a></li>
+									<li><a href="#contact">Контакти</a></li>
 
-							</ul>
+								</ul>
 
-							</nav>
-						<!--End navigation-->
-	
+								</nav>
+							<!--End navigation-->
+
+					</div>					
 				</div>
 			<!--End container-->
 			
@@ -149,16 +157,22 @@ $current_year=@date("Y");
 				
 				<li><img src="/assets/images/sliderImages/slide1.jpg" alt=""/>
 				<div class="caption">
-					<h1><span class="new"><?php echo $company_name; ?></span> is all about design passion </h1>
+					<h1><span class="new">Компанія PST розуміється на захисті рослин </h1>
 				</div>
 				</li>
 					
 					<li><img src="/assets/images/sliderImages/slide2.jpg" alt="" />
 
 						<div class="caption">
-							<h1>Crafted and designed with <span class="new">simplicity</span></h1>	
+							<h1>Ми пропонуємо повний комплекс <span class="new">захисту</span></h1>	
 						</div>	
 					</li>
+					<li><img src="/assets/images/sliderImages/slide3.jpg" alt="" />
+
+						<div class="caption">
+							<h1>Crafted and designed with <span class="new">simplicity</span></h1>	
+						</div>	
+					</li>					
 			</ul>
 			
 			
@@ -893,20 +907,20 @@ $current_year=@date("Y");
 
 	
 <!--Javascript-->
-<script src="/assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="/assets/js/jquery-migrate-1.2.1.js"></script>
-<script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.scrollTo-min.js" type="text/javascript"></script>
-<script src="/assets/js/waypoints.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.parallax-1.1.3.js"></script>
-<script src="/assets/js/modernizr.custom.js"></script>
-<script src="/assets/js/jquery.ui.totop.min.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
-<script src="/assets/js/jquery.appear.min.js"></script>
-<script src="/assets/js/jquery.timer.js"></script>
-<script src="/assets/js/script.js" type="text/javascript"></script>
-    <script src="/assets/jquery.cookieBar.js"></script>
+<script src="assets/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+<script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="assets/js/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script src="assets/js/waypoints.js" type="text/javascript"></script>
+<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+<script src="assets/js/modernizr.custom.js"></script>
+<script src="assets/js/jquery.ui.totop.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<script src="assets/js/jquery.appear.min.js"></script>
+<script src="assets/js/jquery.timer.js"></script>
+<script src="assets/js/script.js" type="text/javascript"></script>
+    <script src="assets/jquery.cookieBar.js"></script>
 
 
     <script>
