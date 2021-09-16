@@ -65,7 +65,7 @@ header{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 3px solid rgb(192,192,192);
+    border: 3px solid #26bd38;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +79,7 @@ header{
     display: inline-block;
     font-size: 2rem;
     text-transform: uppercase;
-	color: rgb(192,192,192) !important;
+	color: #26bd38 !important;
 	position:relative;
 	font-family: 'Black Ops One', cursive;
 	margin-top: 4px;
@@ -114,7 +114,7 @@ nav#mainNav li {
 
 
 nav#mainNav li a{
-    color: #fff;
+    color: #26bd38;
     display: block;
     padding: 25px 15px;
     position: relative;
@@ -176,7 +176,7 @@ nav#mainNav a.active:after {
 }
 
 .topSocials ul:first-child{
-	border-left:1px solid #efefef;
+	border-left:1px solid #26bd38;
 	margin-right:0;
 }
 
@@ -187,11 +187,11 @@ nav#mainNav a.active:after {
 }
 
 .topSocials ul li:first-child{
-	border-bottom:1px solid #efefef;
+	border-bottom:1px solid #26bd38;
 	padding-bottom:8px;
 }
 .topSocials ul li i{
-	color: #fff;
+	color: #26bd38;
 }
 
 /*End header*/
