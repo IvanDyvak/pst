@@ -102,9 +102,9 @@ header{
 
 
 nav#mainNav{
-	/*float:right;*/
-	/*margin-top:2px;*/
-	text-align: center;
+	display: flex;
+   	align-items: center;
+    	justify-content: end;
 }
 
 nav#mainNav li {
