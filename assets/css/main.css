@@ -35,8 +35,8 @@
 /*Header*/
 
 header{
-	background: rgba(0,0,0,.8);
-	/*background:#ffffff;*/
+/* 	background: rgba(0,0,0,.8); */
+	background:#ffffff;
 	position:fixed;
 	width:100%;
 	top:0;
@@ -156,7 +156,7 @@ nav#mainNav a.active:after {
 
 .mobileBtn i{
 	font-size:16px;
-	color:#111111;
+	color:#fff;
 }
 
 .topSocials{
