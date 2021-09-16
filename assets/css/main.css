@@ -812,14 +812,14 @@ form.respondF {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.showFlex{
-	display: flex !important;
-    	align-items: center;
-    	justify-content: space-around;
-    	position: absolute;
-    	top: 20px;
-    	width: 100%;
-    	max-width: 200px;
-    	right: 37px;
+	    display: flex !important;
+	    align-items: center;
+	    justify-content: space-around;
+	    position: absolute;
+	    /* top: 20px; */
+	    width: 100%;
+	    max-width: 300px;
+	    right: 40px;
     }
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
