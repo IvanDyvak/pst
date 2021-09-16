@@ -784,8 +784,8 @@ form.respondF {
 @media screen and (max-device-width: 960px){
 	.factsContainer, .testiCliContainer  {background-attachment: scroll;background-position:top center !important;background-size:cover;}
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	nav#mainNav {margin-right: 70px;}
-
+/* 	nav#mainNav {margin-right: 70px;}
+ */
 }
 
 
