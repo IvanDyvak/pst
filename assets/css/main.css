@@ -944,9 +944,7 @@ form.respondF {
 	nav#mainNav li a{padding:3px 0px;display:inline-block;}
 	.mobileBtn {
 		display: inline-block;
-/* 		float: right;
-		margin-right: 5px; */
-		/*margin-top: -51px;*/
+		margin-right: -10px;
 		position: relative;
 	}
 	
