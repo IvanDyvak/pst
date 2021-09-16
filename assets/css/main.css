@@ -47,6 +47,7 @@ header{
 	-moz-box-shadow: 0 0 3px rgba(153,153,153,.5);
 	-ms-box-shadow: 0 0 3px rgba(153,153,153,.5);
 	-o-box-shadow: 0 0 3px rgba(153,153,153,.5);
+	padding: 20px 0;
 }
 
 .mainHeader{
@@ -903,15 +904,16 @@ form.respondF {
 @media only screen and (max-width:480px) {
 	.showFlex{
 		display: flex !important;
-	    	align-items: center;
-		justify-content: space-around;
-    		position: absolute;
-    		top: 20px;
-    		width: 100%;
-    		max-width: 200px;
-    		right: 30px;
+		align-items: center;
+	    	justify-content: space-around;
+	    	position: absolute;
+	    	top: -18px;
+	    	width: 100%;
+	    	max-width: 220px;
+	    	right: 30px;
+	    	flex-direction: column;
     }
-    nav#mainNav li a{font-size: 11px;}
+    nav#mainNav li a{font-size: 14px;}
 
 	.logo{
     width: 60px;
@@ -948,7 +950,7 @@ form.respondF {
 		position: relative;
 	}
 	
-	 .mainSlider.flexslider{margin:66px auto 0;}
+	 .mainSlider.flexslider{margin:107px auto 0;}
 	.caption h1{font-size:20px;}
 	.caption h1 span.new:after{width:17px;top:26px;right:2px;}
 	.mainSlider .flex-direction-nav a{top:80% !important;}
