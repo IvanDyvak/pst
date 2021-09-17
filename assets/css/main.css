@@ -105,7 +105,7 @@ header{
 nav#mainNav{
 	display: flex;
    	align-items: center;
-    	justify-content: end;
+    	justify-content: center;
 }
 
 nav#mainNav li {
@@ -938,7 +938,7 @@ form.respondF {
 		margin: 18px auto;
 	}
 	.logo, nav#mainNav{float:none;}
-	nav#mainNav{margin-right:0;}
+	nav#mainNav{margin-right:0;justify-content: end;}
 	nav#mainNav ul{display:none;margin:0;}
 	nav#mainNav li{float:none; display:block;}
 	nav#mainNav a.active:after{right:1px;top:22px;}
