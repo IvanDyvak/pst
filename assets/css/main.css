@@ -837,7 +837,7 @@ form.respondF {
 	}
 	.logo, nav#mainNav{float:none;}
 	nav#mainNav{justify-content: flex-end;}
-	nav#mainNav ul{display:none;margin-bottom:10px;}
+	nav#mainNav ul{display:none;}
 	nav#mainNav li{float:none; display:block;}
 	nav#mainNav a.active:after{right:1px;top:22px;}
 	.topSocials{display:none;}
