@@ -47,7 +47,6 @@ header{
 	-moz-box-shadow: 0 0 3px rgba(153,153,153,.5);
 	-ms-box-shadow: 0 0 3px rgba(153,153,153,.5);
 	-o-box-shadow: 0 0 3px rgba(153,153,153,.5);
-	padding: 20px 0;
 }
 
 .mainHeader{
@@ -902,6 +901,9 @@ form.respondF {
 }
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:480px) {
+	header{
+	padding: 25px 0;
+	}
 	.showFlex{
 		display: flex !important;
 		align-items: center;
