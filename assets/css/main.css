@@ -904,7 +904,7 @@ form.respondF {
 }
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:480px) {
-	header{
+	.headerWide{
 	padding: 25px 0;
 	}
 	.showFlex{
@@ -955,8 +955,8 @@ form.respondF {
 		position: relative;
 	}
 	
-	 .mainSlider.flexslider{margin:107px auto 0;}
-	.caption h1{font-size:20px;}
+/*	 .mainSlider.flexslider{margin:107px auto 0;}
+*/	.caption h1{font-size:20px;}
 	.caption h1 span.new:after{width:17px;top:26px;right:2px;}
 	.mainSlider .flex-direction-nav a{top:80% !important;}
 	.projectSlider .flex-direction-nav a{top:60% !important;}
