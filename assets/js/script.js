@@ -152,11 +152,13 @@ $('#submit').click(function(){
 var mobileBtn = $('.mobileBtn');
 	var nav = $('#mainNav ul');
 	var navHeight= nav.height();
+	var header = $('header');
 
 $(mobileBtn).click(function(e) {
 		e.preventDefault();
 		nav.toggleClass("showFlex");
 		$('#mainNav li a').addClass('mobile');
+		header.toggleClass("headerWide");
 
 
 });
